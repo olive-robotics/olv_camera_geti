@@ -1,0 +1,104 @@
+{
+    "label_tree": {
+        "type": "tree",
+        "directed": true,
+        "nodes": [],
+        "edges": []
+    },
+    "label_groups": [
+        {
+            "_id": "6661a0f92022cd03936d3a84",
+            "name": "Classification labels___Wall",
+            "label_ids": [
+                "6661a0f92022cd03936d3a7f"
+            ],
+            "relation_type": "EXCLUSIVE"
+        },
+        {
+            "_id": "6661a0f92022cd03936d3a85",
+            "name": "Classification labels___Beer",
+            "label_ids": [
+                "6661a0f92022cd03936d3a80"
+            ],
+            "relation_type": "EXCLUSIVE"
+        },
+        {
+            "_id": "6661a0f92022cd03936d3a86",
+            "name": "Classification labels___Duck",
+            "label_ids": [
+                "6661a0f92022cd03936d3a81"
+            ],
+            "relation_type": "EXCLUSIVE"
+        },
+        {
+            "_id": "6661a0f92022cd03936d3a88",
+            "name": "No class",
+            "label_ids": [
+                "6661a0f92022cd03936d3a87"
+            ],
+            "relation_type": "EMPTY_LABEL"
+        }
+    ],
+    "all_labels": {
+        "6661a0f92022cd03936d3a7f": {
+            "_id": "6661a0f92022cd03936d3a7f",
+            "name": "Wall",
+            "color": {
+                "red": 255,
+                "green": 255,
+                "blue": 255,
+                "alpha": 255
+            },
+            "hotkey": "",
+            "domain": "CLASSIFICATION",
+            "creation_date": "2024-06-06T11:43:53.732000",
+            "is_empty": false,
+            "is_anomalous": false
+        },
+        "6661a0f92022cd03936d3a80": {
+            "_id": "6661a0f92022cd03936d3a80",
+            "name": "Beer",
+            "color": {
+                "red": 255,
+                "green": 201,
+                "blue": 0,
+                "alpha": 255
+            },
+            "hotkey": "",
+            "domain": "CLASSIFICATION",
+            "creation_date": "2024-06-06T11:43:53.732000",
+            "is_empty": false,
+            "is_anomalous": false
+        },
+        "6661a0f92022cd03936d3a81": {
+            "_id": "6661a0f92022cd03936d3a81",
+            "name": "Duck",
+            "color": {
+                "red": 191,
+                "green": 0,
+                "blue": 255,
+                "alpha": 255
+            },
+            "hotkey": "",
+            "domain": "CLASSIFICATION",
+            "creation_date": "2024-06-06T11:43:53.732000",
+            "is_empty": false,
+            "is_anomalous": false
+        },
+        "6661a0f92022cd03936d3a87": {
+            "_id": "6661a0f92022cd03936d3a87",
+            "name": "No class",
+            "color": {
+                "red": 0,
+                "green": 0,
+                "blue": 0,
+                "alpha": 255
+            },
+            "hotkey": "",
+            "domain": "CLASSIFICATION",
+            "creation_date": "2024-06-06T11:43:53.757000",
+            "is_empty": true,
+            "is_anomalous": false
+        }
+    }
+}

@@ -1,0 +1,91 @@
+{
+   "id": "6661a0f92022cd03936d3a7a",
+   "name": "Beer Classification",
+   "creation_time": "2024-06-06T11:43:53.749000+00:00",
+   "creator_id": "1e2eae1e-d9c2-4ae0-b5b6-ad92942964a8",
+   "pipeline": {
+      "tasks": [
+         {
+            "id": "6661a0f92022cd03936d3a7b",
+            "title": "Dataset",
+            "task_type": "dataset"
+         },
+         {
+            "id": "6661a0f92022cd03936d3a7d",
+            "title": "Classification",
+            "task_type": "classification",
+            "labels": [
+               {
+                  "id": "6661a0f92022cd03936d3a7f",
+                  "name": "Wall",
+                  "is_anomalous": false,
+                  "color": "#ffffffff",
+                  "hotkey": "",
+                  "is_empty": false,
+                  "group": "Classification labels___Wall",
+                  "parent_id": null
+               },
+               {
+                  "id": "6661a0f92022cd03936d3a80",
+                  "name": "Beer",
+                  "is_anomalous": false,
+                  "color": "#ffc900ff",
+                  "hotkey": "",
+                  "is_empty": false,
+                  "group": "Classification labels___Beer",
+                  "parent_id": null
+               },
+               {
+                  "id": "6661a0f92022cd03936d3a81",
+                  "name": "Duck",
+                  "is_anomalous": false,
+                  "color": "#bf00ffff",
+                  "hotkey": "",
+                  "is_empty": false,
+                  "group": "Classification labels___Duck",
+                  "parent_id": null
+               },
+               {
+                  "id": "6661a0f92022cd03936d3a87",
+                  "name": "No class",
+                  "is_anomalous": false,
+                  "color": "#000000ff",
+                  "hotkey": "",
+                  "is_empty": true,
+                  "group": "No class",
+                  "parent_id": null
+               }
+            ],
+            "label_schema_id": "6661a0f92022cd03936d3a89"
+         }
+      ],
+      "connections": [
+         {
+            "from": "6661a0f92022cd03936d3a7b",
+            "to": "6661a0f92022cd03936d3a7d"
+         }
+      ]
+   },
+   "thumbnail": "/api/v1/organizations/57ea3e36-c689-41cd-b3d9-7af2e3fc353c/workspaces/e7c3a331-5b8d-4362-abb5-1ef6b5e6f023/projects/6661a0f92022cd03936d3a7a/thumbnail",
+   "performance": {
+      "score": 1.0,
+      "task_performances": [
+         {
+            "task_id": "6661a0f92022cd03936d3a7d",
+            "score": {
+               "value": 1.0,
+               "metric_type": "Accuracy"
+            }
+         }
+      ]
+   },
+   "storage_info": {},
+   "datasets": [
+      {
+         "id": "6661a0f92022cd03936d3a82",
+         "name": "Dataset",
+         "use_for_training": true,
+         "creation_time": "2024-06-06T11:43:53.743000+00:00"
+      }
+   ]
+}

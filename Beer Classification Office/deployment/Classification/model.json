@@ -1,0 +1,33 @@
+{
+   "id": "6661a3723cc3ae7536a16193",
+   "name": "EfficientNet-B0 OpenVINO INT8",
+   "version": 1,
+   "creation_date": "2024-06-06T11:54:26.894000+00:00",
+   "model_format": "OpenVINO",
+   "precision": [
+      "INT8"
+   ],
+   "has_xai_head": false,
+   "target_device": "CPU",
+   "target_device_type": null,
+   "performance": {
+      "score": 1.0
+   },
+   "size": 5506482,
+   "latency": 0,
+   "fps_throughput": 0,
+   "optimization_type": "POT",
+   "optimization_objectives": {},
+   "model_status": "SUCCESS",
+   "configurations": [
+      {
+         "name": "sample_size",
+         "value": 300
+      }
+   ],
+   "previous_revision_id": "6661a3723cc3ae7536a16192",
+   "previous_trained_revision_id": "6661a1f311a5175e26ff2279",
+   "optimization_methods": [
+      "QUANTIZATION"
+   ]
+}
